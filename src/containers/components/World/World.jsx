@@ -23,7 +23,7 @@ function World({values}) {
         const spanValue = isFirst ? 24 : 12;
 
         return (
-            <Col span={spanValue} key={`World-${index}`}>
+            <Col span={spanValue} key={`world-${index}`}>
                 <article onClick={() => openPost(id)}>
                     <p>
                         <strong dangerouslySetInnerHTML={createMarkup(title)}/>
